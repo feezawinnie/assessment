@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>business registration</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="h-screen bg-gray-100 items-center flex justify-center">
+    <div
+      class="w-[500px] h-[500px] bg-sky-600 bg-[url('./istockphoto-174634535-1024x1024.jpg')] bg-contain bg-no-repeat bg-center border mb-0 border-gray-300 shadow-md"
+      style="background-size: 85%"
+    >
+      <header class="flex justify-between">
+        <div>
+          <h1 class="text-start font-bold mb-16 ml-5 text-white">
+            <span class="text-orange-500">E</span>-LGBP
+          </h1>
+        </div>
+        <ul class="text-gray-300 flex gap-4">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Contact us</a>
+          </li>
+        </ul>
+      </header>
+
+      <h1 class="align-center font-bold mt-8 ml-10 text-white">
+        <span class="text-orange-500">E</span>-LGBP
+      </h1>
+      <h3 class="text-white font-bold mt-0 align-center px-10">
+        welcome we are glad to have you!
+      </h3>
+      <p
+        class="text-white text-center mt-1 tracking-tighter text-l p- mb-3 ml-1"
+      >
+        This app aims at organizing the services that are offered by the local
+        government officials!
+      </p>
+
+      
+      <form action="" class="gap-16 ml-4">
+        <button
+          class="bg-orange-500 ml-6 text-white font-medium px-2 rounded-md"
+        >
+          sign here
+        </button>
+        <button class="bg-blue-500 text-white font-medium rounded-md px-2">
+          sign up
+        </button>
+      </form>
+
+      <div>
+        <h4 class="font-bold mt-40 text-white text-center">
+          view your payment history
+        </h4>
+      </div>
+      <p class="text-white ml-8 tracking-tight text-sm">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident,
+        quasi! Voluptate atque quas, magnam laudantium dignissimos deserunt!
+      </p>
+
+      <div class="flex justify-center space-x-2 mt-2">
+        <div class="w-1.5 h-1.5 bg-slate-300 rounded-full"></div>
+        <div class="w-1.5 h-1.5 bg-slate-300 rounded-full"></div>
+        <div class="w-1.5 h-1.5 bg-slate-300 rounded-full"></div>
+      </div>
+    </div>
+
+    <!--second white part fpr forms-->
+    <div class="w-[500px] h-[500px] bg-slate-100 border border-gray-300 p-0">
+      <h2 class="text-2xl text-gray-500 text-center">SIGN UP</h2>
+
+      <form class="flex p-4 gap-16">
+        <a
+          href="index.html"
+          class="bg-slate-100 ml-6 border border-gray-400 text-gray-400 font-medium px-4 rounded-md active:bg-orange-500"
+        >
+          Citizen
+        </a>
+
+        <a
+          href="business.html"
+          class="bg-slate-100 text-gray-400 border border-gray-400 font-medium rounded-md px-4 active:bg-orange-500"
+        >
+          Business
+        </a>
+
+        <a
+          href="users.html"
+          class="bg-slate-100 text-gray-400 border border-gray-400 font-medium rounded-md px-4 active:bg-orange-500"
+        >
+          Users
+        </a>
+      </form>
+
+      <form action="" method="post">
+        <!-- Name Field -->
+
+        <div class="mb-0">
+          <div class="flex gap-6">
+            <div class="grid">
+              <label
+                for="name"
+                class="block ml-3 text-sm font-medium text-gray-400"
+                >First name</label
+              >
+              <input
+                type="text"
+                id=" first name"
+                name="first name"
+                class="w-48 h-7 p-2 ml-3 mt-1 mr-4 border border-gray-300 rounded-md"
+                placeholder=""
+                required
+              />
+            </div>
+
+            <!-- Contact Field -->
+            <div class="mb-0">
+              <label
+                for="contact"
+                class="block text-sm font-medium text-gray-400"
+                >Phone</label
+              >
+              <input
+                type="tel"
+                id="contact"
+                name="contact"
+                class="w-48 h-7 p-2 border border-gray-300 rounded-md"
+                placeholder=""
+                required
+              />
+            </div>
+          </div>
+
+          <div class="flex gap-6">
+            <div class="grid">
+              <label
+                for="name"
+                class="block ml-3 text-sm font-medium text-gray-400"
+                >Last name</label
+              >
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="w-48 h-7 p-2 ml-3 mr-4 border border-gray-300 rounded-md"
+                placeholder=""
+                required
+              />
+            </div>
+
+            <div class="mb-0">
+              <label
+                for="nationality"
+                class="block text-sm font-medium text-gray-400"
+                >Nationality</label
+              >
+              <select
+                id="Nationality"
+                name="Nationality"
+                class="w-48 h-7 p-2 mt-2 border border-gray-300 rounded-md"
+                required=""
+              ></select>
+            </div>
+          </div>
+
+          <!--district-->
+          <div class="flex gap-10">
+            <div class="ml-3 mb-0">
+              <label
+                for="district"
+                class="block text-sm font-medium text-gray-400"
+                >District</label
+              >
+              <select
+                id="district"
+                name="district"
+                class="w-48 h-7 p-2 mt-1 border border-gray-300 rounded-md"
+                required=""
+              >
+                <!--
+            <option value="">Select your district</option>
+            <option value="district1">kicukiro</option>
+            <option value="district2">gasabo</option>
+            <option value="district3">karangazi</option>
+            <option value="district4">nyarungenge</option>-->
+              </select>
+            </div>
+            <div class="grid">
+              <label for="name" class="block text-sm font-medium text-gray-400"
+                >National id</label
+              >
+              <input
+                type="national id"
+                id="national id"
+                name="national i"
+                class="w-48 h-7 p-2 mt-2 border border-gray-300 rounded-md"
+                placeholder=""
+                required
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- Password Field -->
+        <div class="flex gap-10">
+          <div class="mb-0">
+            <label
+              for="password"
+              class="block ml-3 text-sm font-medium text-gray-400"
+              >Password</label
+            >
+            <input
+              type="password"
+              id="password"
+              name="password"
+              class="w-48 h-7 ml-3 p-2 mt-2 border border-gray-300 rounded-md"
+              placeholder=""
+              required=""
+            />
+          </div>
+          <div class="mb-0">
+            <label for="Sector" class="block text-sm font-medium text-gray-400"
+              >Sector</label
+            >
+            <select
+              id="Sector"
+              name="Sector"
+              class="w-48 h-7 p-2 mt-2 border border-gray-300 rounded-md"
+              required=""
+            ></select>
+          </div>
+        </div>
+
+        <!-- gender Field -->
+        <div class="mb-0">
+          <label
+            for="Gender"
+            class="block ml-3 text-sm font-medium text-gray-400"
+            >Gender</label
+          >
+          <select
+            id="gender"
+            name="gender"
+            class="w-48 h-7 p-2 mt-1 ml-3 border border-gray-300 rounded-md"
+            required=""
+          ></select>
+        </div>
+
+        <div class="flex mb-5 ml-3 mt-1 gap-4">
+          <div class="grid">
+            <label for="cell" class="block text-sm font-medium text-gray-400"
+              >Cell</label
+            >
+            <select
+              id="Cell"
+              name="Cell"
+              class="w-32 h-7 p-2 mt-2 border border-gray-300 rounded-md"
+              required=""
+            ></select>
+          </div>
+
+          <div class="grid">
+            <label for="village" class="block text-sm font-medium text-gray-400"
+              >village</label
+            >
+            <select
+              id="village"
+              name="village"
+              class="w-32 h-7 p-2 mt-2 border border-gray-300 rounded-md"
+              required=""
+            ></select>
+          </div>
+
+          <div class="grid">
+            <label for="isibo" class="block text-sm font-medium text-gray-400"
+              >Isibo</label
+            >
+            <select
+              id="isibo"
+              name="isibo"
+              class="w-32 h-7 p-2 mt-2 border border-gray-300 rounded-md"
+              required=""
+            ></select>
+          </div>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="flex justify-center">
+          <button
+            type="submit"
+            class="w-60 mb-4 bg-blue-500 text-center text-white p-2 rounded-md"
+          >
+            Signup
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
